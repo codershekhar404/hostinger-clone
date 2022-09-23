@@ -1,0 +1,84 @@
+html {
+  font-size: 10px;
+  background-color: var(--compliment_clr);
+}
+#click {
+  display: none;
+}
+.menu_btn {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--compliment_clr_dark);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: #2f1c6a;
+  font-size: 4.4rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+p {
+  color: var(--heading_clr_light);
+  font-size: 1.7rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+h4 {
+  color: var(--heading_clr);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 8rem;
+  color: var(--compliment_clr);
+}
+
+sup,
+h2 span {
+  font-size: 3rem;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  height: 5.5rem;
+  width: 16.25rem;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--compliment_clr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #fc5185;
+  border-radius: 1.4rem;
+  transition: 0.3s ease-in-out;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px rgb(0 0 0 / 25%);
+}
